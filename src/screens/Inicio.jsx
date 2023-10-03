@@ -1,9 +1,10 @@
 import React from 'react'
+import Presentacion from '../components/Presentacion/Presentacion'
 
 function Inicio() {
   return (
     <div>
-        <h2>Inicio</h2>
+        <Presentacion/>
     </div>
   )
 }
