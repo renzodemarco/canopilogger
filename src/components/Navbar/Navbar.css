@@ -1,0 +1,66 @@
+/* Estilos para la barra de navegación */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff; /* Fondo blanco */
+  color: #333; /* Texto negro */
+  padding: 10px 60px;
+  
+}
+
+/* Estilos para el logo */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para la lista de navegación */
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para los elementos de la lista */
+.nav-item {
+  padding: 10px 30px;
+  cursor: pointer;
+  position: relative;
+  background-color: #fff; /* Fondo blanco */
+  transition: color 0.3s; /* Transición de color al pasar el mouse */
+}
+
+/* Cambia el color del texto a verde cuando se pasa el mouse sobre un elemento */
+.nav-item:hover {
+  background-color: #00cc00; /* Cambia el color del texto a verde (#00cc00) al pasar el mouse */
+}
+
+/* Estilos para los elementos desplegables */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  z-index: 1;
+}
+
+/* Estilos para las opciones del menú desplegable */
+.dropdown li {
+  list-style: none;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  color: #00cc00; /* Cambia el color del texto a verde (#00cc00) al pasar el mouse */
+}
+
+/* Mostrar el menú desplegable cuando se hace clic en un elemento */
+.nav-item:hover .dropdown {
+  display: block;
+}
