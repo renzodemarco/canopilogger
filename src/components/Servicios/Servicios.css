@@ -1,0 +1,20 @@
+.container-servicios{
+    text-align: center;
+}
+
+.container-titulo-servicios h2{
+    padding: 20px 0;
+    background-color: cadetblue;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.container-subtitulo-servicios h3{
+    background-color: cadetblue;
+    font-size: 24px;
+}
+
+.container-video-servicios{
+    background-color: cadetblue;
+    padding: 20px 0;
+}

@@ -1,0 +1,16 @@
+.container-quienessomos{
+    text-align: center;
+}
+
+.container-titulo-quienessomos h2{
+    padding: 20px 0;
+    background-color: #f6f7bb;
+    font-size: 30px;
+}
+
+.container-subtitulo-quienessomos p{
+    background-color: #f6f7bb;
+    font-size: larger;
+    padding: 0 80px;
+    padding-bottom: 20px;
+}

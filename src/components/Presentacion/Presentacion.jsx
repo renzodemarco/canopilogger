@@ -3,13 +3,19 @@ import './Presentacion.css'
 
 function Presentacion() {
   return (
-    <div className="container">
-      <div className="left-column">
-        <h1>Un equipo experto en ciencias y agrometeorología</h1>
-        <h2>Ayudamos a nuestros clientes a tomar decisiones basadas en información.</h2>
-        <button>Contacta a un asesor</button>
+    <div className="grid-presentacion">
+      <div className='container-presentacion'>
+        <div className="container-titulo-presentacion">
+          <h1>Un equipo experto en ciencias y agrometeorología</h1>
+        </div>
+        <div className="container-subtitulo-presentacion">
+          <h3>Ayudamos a nuestros clientes a tomar decisiones basadas en información.</h3>
+        </div>
+        <div className="container-boton-presentacion">
+          <button>Contacta a un asesor</button>
+        </div>
       </div>
-      <div className="right-column">
+      <div className="container-imagen-presentacion">
         <img src="imagen.jpg" alt="Imagen" />
       </div>
     </div>

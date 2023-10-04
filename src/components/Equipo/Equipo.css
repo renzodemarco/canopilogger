@@ -1,0 +1,16 @@
+.container-equipo{
+    text-align: center;
+}
+
+.container-titulo-equipo h2{
+    padding: 20px 0;
+    background-color:cadetblue;
+    font-size: 30px;
+}
+
+.container-subtitulo-equipo p{
+    background-color:cadetblue;
+    font-size: large;
+    padding: 0 80px;
+    padding-bottom: 20px;
+}
