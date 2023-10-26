@@ -1,15 +1,24 @@
 import React from 'react'
+import pcImg from '../../assets/pc-inicio-inv.svg'
 import './QuienesSomos.css'
 
 function QuienesSomos() {
   return (
-    <div class="container-quienessomos">
-        <div class="container-titulo-quienessomos">
+    <div className="container-quienessomos">
+      <div className='container-img-quienessomos'>
+        <img src={pcImg}></img>
+      </div>
+      <div className='container-text-quienessomos'>
+        <div className="container-titulo-quienessomos">
             <h2>¿Quiénes somos?</h2>
         </div>
-        <div class="container-subtitulo-quienessomos">
-            <p>Somos una empresa que brinda servicios agrometeorológicos de vanguardia que permiten optimizar tus operaciones. Transformamos datos de alta calidad en información valiosa para tomar decisiones productivas y minimizar pérdidas debido al cambio climático</p>
+        <div className="container-subtitulo-quienessomos">
+            <p>Somos una empresa que brinda servicios agrometeorológicos de vanguardia que permiten optimizar tus operaciones. Transformamos datos de alta calidad en información valiosa para tomar decisiones productivas y minimizar pérdidas debido al cambio climático.</p>
         </div>
+        <button className="button-quienessomos">
+          Conocer más
+        </button>
+      </div>
     </div>
   )
 }

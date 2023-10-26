@@ -1,16 +1,40 @@
 .container-quienessomos{
-    text-align: center;
+    width: 100%;
+    padding: 30px 180px;
+    margin: 18px 0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-img-quienessomos {
+    width: 38%;
+}
+
+.container-text-quienessomos {
+    width: 72%;
+    padding: 0 30px ;
 }
 
 .container-titulo-quienessomos h2{
     padding: 20px 0;
-    background-color: #f6f7bb;
-    font-size: 30px;
+    font-size: 32px;
+    color:#009432;
 }
 
 .container-subtitulo-quienessomos p{
-    background-color: #f6f7bb;
-    font-size: larger;
-    padding: 0 80px;
-    padding-bottom: 20px;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.button-quienessomos {
+    background-color: #ffde59;
+    padding: 14px 26px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 10px 0px;
+    width: 40%;
+    font-size: 18px;
+    font-weight: 600;
 }

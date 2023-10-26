@@ -1,61 +1,70 @@
-.grid-presentacion{
+.grid-presentacion {
   display: grid;
   grid-template-columns: 50% 50%;
   margin: 0 auto;
-  margin-top: 10px;
-  background-color: #f6f7bb;
+  background: linear-gradient(to right, #fff 70%, #ccead6 30%);
   padding: 10px;
   text-align: center;
 }
 
-.container-presentacion{
-  padding: 20px;
-  background-color: #f6f7bb;
+.container-presentacion {
+  padding: 40px 60px;
 }
 
-.container-titulo-presentacion{
- padding: 10px;
- background-color: #f6f7bb;
-}
-
-.container-titulo-presentacion h1{
-  font-size: 38px;
-  margin: 0; 
-  padding-top: 60px;
-  padding-bottom: 30px;
-  background-color: #f6f7bb;
- }
-
-.container-subtitulo-presentacion{
-  background-color: #f6f7bb;
+.container-titulo-presentacion {
   padding: 10px;
 }
 
-.container-subtitulo-presentacion h3{
-  background-color: #f6f7bb;
-  font-size: 20px;
-  font-weight: lighter;
+.container-titulo-presentacion h1 {
+  font-size: 40px;
+  margin: 0;
+  text-align: start;
+  padding-top: 18px;
+  padding-bottom: 30px;
+  color:  #009432;
 }
 
-.container-boton-presentacion{
+.container-subtitulo-presentacion {
+  padding: 10px;
+}
+
+.container-subtitulo-presentacion h3 {
+  font-size: 20px;
+  text-align: start;
+  color: #3c4543;
+}
+
+.container-boton-presentacion {
   padding-top: 20px;
-  background-color: #f6f7bb;
   padding-bottom: 60px;
 }
 
-.container-boton-presentacion button{
-  padding: 10px 20px; 
-  background-color:blueviolet; 
-  color: #fff; 
-  border: none; 
+.container-boton-presentacion button {
+  padding: 14px 26px;
+  background-color: #ccead6(134, 155, 61);
+  color:  #009432;
+  border: none;
   border-radius: 50px;
   cursor: pointer;
   margin: 10px 0px;
   width: 80%;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
 }
 
-.container-imagen-presentacion{
-  background-color: #f6f7bb;
+.container-boton-presentacion button:hover {
+  background-color: #009432;
+  color: #ccead6;
+  transform: scale(1.03);
+  transition: .3s;
+}
+
+.container-imagen-presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-imagen-presentacion img {
+  width: 90%;
 }

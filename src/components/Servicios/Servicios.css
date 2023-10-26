@@ -1,20 +1,30 @@
 .container-servicios{
     text-align: center;
+    background-color: #fff;
+}
+
+.img-fondo-container img {
+    width: 100%;
 }
 
 .container-titulo-servicios h2{
-    padding: 20px 0;
-    background-color: cadetblue;
-    font-size: 30px;
+    padding: 24px;
+    font-size: 26px;
     font-weight: lighter;
 }
 
 .container-subtitulo-servicios h3{
-    background-color: cadetblue;
-    font-size: 24px;
+    font-size: 32px;
+    color: #009432;
 }
 
 .container-video-servicios{
-    background-color: cadetblue;
     padding: 20px 0;
+}
+
+.container-enum-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 68px 50px;
 }

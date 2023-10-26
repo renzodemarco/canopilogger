@@ -1,16 +1,29 @@
 /* Estilos para la barra de navegación */
 .navbar {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff; /* Fondo blanco */
-  color: #333; /* Texto negro */
-  padding: 10px 60px;
-  
+  background-color: #fff; 
+  color: #3c4543; /* Texto negro */
+  padding: 0 4rem;
+  height: 80px;
+  position: fixed;
+  box-shadow: 1px 1px 10px #ddd;
+  z-index: 1;
 }
 
 /* Estilos para el logo */
 .navbar-left {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  height: 100%;
+  width: 70%;
   display: flex;
   align-items: center;
 }
@@ -19,22 +32,26 @@
 .nav-list {
   list-style: none;
   display: flex;
+  justify-content: space-around;
+  width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 /* Estilos para los elementos de la lista */
 .nav-item {
-  padding: 10px 30px;
+  padding: 14px 32px;
   cursor: pointer;
+  font-size: 18px;
   position: relative;
-  background-color: #fff; /* Fondo blanco */
   transition: color 0.3s; /* Transición de color al pasar el mouse */
 }
 
 /* Cambia el color del texto a verde cuando se pasa el mouse sobre un elemento */
 .nav-item:hover {
-  background-color: #00cc00; /* Cambia el color del texto a verde (#00cc00) al pasar el mouse */
+  background-color: #cbe9d5;
+  border-radius: 12px;
+  transition: .3s;
 }
 
 /* Estilos para los elementos desplegables */
@@ -43,7 +60,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #fff;
+  background-color: #eff0f0;
   color: #333;
   padding: 10px;
   z-index: 1;
@@ -56,11 +73,14 @@
   cursor: pointer;
 }
 
-.dropdown li:hover {
-  color: #00cc00; /* Cambia el color del texto a verde (#00cc00) al pasar el mouse */
+.nav-contact {
+  color: #fff;
+  background-color: #009432;
+  border-radius: 16px;
 }
 
-/* Mostrar el menú desplegable cuando se hace clic en un elemento */
-.nav-item:hover .dropdown {
-  display: block;
+.nav-contact:hover {
+  color: #009432;
+  transition: .3s;
+  font-weight: bold;
 }

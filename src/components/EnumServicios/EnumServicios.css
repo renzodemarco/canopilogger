@@ -1,0 +1,28 @@
+.container-items-servicios {
+    padding: 14px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img-item-servicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+}
+
+.container-img-item-servicios img {
+    height: 100%;
+}
+
+.container-title-item-servicios {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-text-item-servicios {
+    color: #989898
+}

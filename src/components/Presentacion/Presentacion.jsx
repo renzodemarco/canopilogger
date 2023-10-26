@@ -1,4 +1,5 @@
 import React from 'react';
+import pcImg from '../../assets/pc-inicio.svg'
 import './Presentacion.css'
 
 function Presentacion() {
@@ -6,7 +7,7 @@ function Presentacion() {
     <div className="grid-presentacion">
       <div className='container-presentacion'>
         <div className="container-titulo-presentacion">
-          <h1>Un equipo experto en ciencias y agrometeorología</h1>
+          <h1>Un equipo experto en ciencias y agrometeorología.</h1>
         </div>
         <div className="container-subtitulo-presentacion">
           <h3>Ayudamos a nuestros clientes a tomar decisiones basadas en información.</h3>
@@ -16,7 +17,7 @@ function Presentacion() {
         </div>
       </div>
       <div className="container-imagen-presentacion">
-        <img src="imagen.jpg" alt="Imagen" />
+        <img src={pcImg} alt="Imagen" />
       </div>
     </div>
   );
