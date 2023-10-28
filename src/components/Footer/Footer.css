@@ -3,7 +3,7 @@
   height: 440px;
   display: flex;
   flex-direction: column;
-  padding: 60px 160px 20px;
+  padding: 20px 160px 20px;
 }
 
 .container-footer-sup {
@@ -55,7 +55,6 @@
 }
 
 .container-footer-text {
-  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;

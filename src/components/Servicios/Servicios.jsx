@@ -11,7 +11,7 @@ function Servicios() {
   return (
     <div className="container-servicios">
       <div className="img-fondo-container">
-        <img src={fondoSemillas}/>
+        <img src={fondoSemillas}  alt="Imagen semillas"/>
       </div>
       <div className="container-titulo-servicios">
         <h2>NUESTROS SERVICIOS</h2>

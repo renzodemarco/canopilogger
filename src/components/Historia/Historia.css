@@ -1,0 +1,72 @@
+.container-historia {
+    display: flex;
+    height: 533px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container-canopilogger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+}
+.container-img-historia {
+    display: flex;
+    width: 364.299px;
+    height: 331.797px;
+    justify-content: center;
+    align-items: center;
+}
+.container-text-canopilogger {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+}
+
+.container-titulo-canopilogger h2 {
+    color: #009432;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.container-subtitulo-canopilogger p{
+    color: #000;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container-ntra-historia{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.container-ntra-historia h2{
+    color: #009432;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container-ntra-historia p{
+    width: 80%;
+}
+
+.negrita {
+    font-weight: bold;
+  }

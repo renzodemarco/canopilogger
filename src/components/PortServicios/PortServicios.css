@@ -1,0 +1,44 @@
+.container-portservicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-intro-portservicios{
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+.container-titulo-portservicios h2{
+    color: #009432;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.container-subtitulo-portservicios h3{
+    color: #256D72;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.imagen-portservicios {
+    display: flex;
+    width: 80%;
+    height: 195px;
+    justify-content: center;
+    align-items: center;
+}

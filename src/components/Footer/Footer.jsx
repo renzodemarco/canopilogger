@@ -15,33 +15,23 @@ function Footer() {
                     <h2>¡SEGUINOS!</h2>
                 </div>
                 <div className="container-footer-sup-right">
-                    <a href='http://www.facebook.com/' target="_blank">
+                    <a href='http://www.facebook.com/' target="_blank" rel="noreferrer">
                         <img src={iconFb}/>
                     </a>
-                    <a href='http://www.instagram.com/' target="_blank">
+                    <a href='http://www.instagram.com/' target="_blank" rel="noreferrer">
                         <img src={iconIg}/>
                     </a>
-                    <a href='http://www.linkedin.com/' target="_blank">
+                    <a href='http://www.linkedin.com/' target="_blank" rel="noreferrer">
                         <img src={iconLn}/>
                     </a>
-                    <a href='http://www.youtube.com/' target="_blank">
+                    <a href='http://www.youtube.com/' target="_blank" rel="noreferrer">
                         <img src={iconYt}/>
                     </a>
                 </div>
             </div>
-            <div className="container-footer-inf">
-                <div className="container-footer-nav">
-                    <ul>
-                        <li>INICIO</li>
-                        <li>QUIÉNES SOMOS</li>
-                        <li>SERVICIOS</li>
-                        <li>CONTACTO</li>
-                    </ul>
-                </div>
-                <div className="container-footer-text">
-                    <p>Copyright © 2023 CanopiLogger | All Rights Reserved | <span>Terms and Conditions</span> | <span>Privacy Policy</span>
-                    </p>
-                </div>
+            <div className="container-footer-text">
+                <p>Copyright © 2023 CanopiLogger | All Rights Reserved | <span>Terms and Conditions</span> | <span>Privacy Policy</span>
+                </p>
             </div>
         </div>
     )
