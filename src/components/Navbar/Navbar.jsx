@@ -1,21 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Navbar.css';
 import Logo from '../LogoNav/LogoNav';
+import Dropdown from 'react-bootstrap/Dropdown';
+import Button from 'react-bootstrap/Button';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
-  // Estado para gestionar si los elementos desplegables están abiertos o cerrados
-  const [dropdown1Open, setDropdown1Open] = useState(false);
-  const [dropdown2Open, setDropdown2Open] = useState(false);
-
-  // Función para alternar la visibilidad del primer desplegable
-  const toggleDropdown1 = () => {
-    setDropdown1Open(!dropdown1Open);
-  };
-
-  // Función para alternar la visibilidad del segundo desplegable
-  const toggleDropdown2 = () => {
-    setDropdown2Open(!dropdown2Open);
-  };
 
   return (
     <nav className="navbar">
@@ -24,30 +15,40 @@ function Navbar() {
       </div>
       <div className="navbar-right">
         <ul className="nav-list">
-          <li className="nav-item">Inicio</li>
-          <li className="nav-item" onClick={toggleDropdown1}>
-            Quiénes somos ▼
-            {dropdown1Open && (
-              <ul className="dropdown">
-                <li>Sobre nosotras</li>
-                <li>Conoce el equipo</li>
-                <li>Misión y visión</li>
-                <li>Nuestros pilares</li>
-              </ul>
-            )}
+          <li className="nav-item">
+            <Link to='/'>Inicio</Link>
           </li>
-          <li className="nav-item" onClick={toggleDropdown2}>
-            Servicios ▼
-            {dropdown2Open && (
-              <ul className="dropdown">
-                <li>Asesoramiento</li>
-                <li>Sensores</li>
-                <li>Reportes</li>
-                <li>Ensayos I+D</li>
-              </ul>
-            )}
+          <li className='dropdown-button nav-item'>
+            <Dropdown as={ButtonGroup}>
+              <Button>
+                <Link className='dropdown-button-split' to='/quienes-somos'>Quiénes somos</Link>
+              </Button>
+              <Dropdown.Toggle splitid="dropdown-split-basic" />
+              <Dropdown.Menu>
+                <Dropdown.Item><Link to='/quienes-somos#seccion1'>Sobre nosotras</Link></Dropdown.Item>
+                <Dropdown.Item><Link to='/quienes-somos#seccion2'>Conocé el equipo</Link></Dropdown.Item>
+                <Dropdown.Item><Link to='/quienes-somos#seccion3'>Misión y visión</Link></Dropdown.Item>
+                <Dropdown.Item><Link to='/quienes-somos#seccion4'>Nuestros clientes</Link></Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
           </li>
-          <li className="nav-item nav-contact">Contacto</li>
+          <li className='dropdown-button nav-item'>
+            <Dropdown as={ButtonGroup}>
+              <Button>
+                <Link className='dropdown-button-split' to='/servicios'>Servicios</Link>
+              </Button>
+              <Dropdown.Toggle splitid="dropdown-split-basic" />
+              <Dropdown.Menu>
+                <Dropdown.Item><Link to='/servicios#seccion1'>Asesoramiento</Link></Dropdown.Item>
+                <Dropdown.Item><Link to='/servicios#seccion1'>Sensores</Link></Dropdown.Item>
+                <Dropdown.Item><Link to='/servicios#seccion1'>Reportes</Link></Dropdown.Item>
+                <Dropdown.Item><Link to='/servicios#seccion1'>Ensayos I+D</Link></Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+          </li>
+          <li className="nav-item nav-contact">
+            <Link to='/contacto'>Contacto</Link>
+          </li>
         </ul>
       </div>
     </nav>

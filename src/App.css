@@ -9,6 +9,11 @@
   color: #3c4543;
 }
 
-.inicio-container {
+.App {
   padding-top: 80px;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
 }

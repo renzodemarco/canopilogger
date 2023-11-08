@@ -47,40 +47,61 @@
   transition: color 0.3s; /* Transición de color al pasar el mouse */
 }
 
-/* Cambia el color del texto a verde cuando se pasa el mouse sobre un elemento */
 .nav-item:hover {
   background-color: #cbe9d5;
   border-radius: 12px;
   transition: .3s;
 }
 
-/* Estilos para los elementos desplegables */
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #eff0f0;
-  color: #333;
-  padding: 10px;
-  z-index: 1;
+.dropdown-button button {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  color: #3c4543;
 }
 
-/* Estilos para las opciones del menú desplegable */
-.dropdown li {
-  list-style: none;
-  padding: 5px 0;
-  cursor: pointer;
+.dropdown-button:active {
+  background-color: transparent !important;
+}
+
+.dropdown-button .btn:hover {
+  background-color: initial;
+  border: initial;
+  color: initial;
+}
+
+.dropdown-button .btn:focus {
+  background-color: transparent;
+  border: initial;
+  color: initial;
+}
+
+.dropdown-button-split {
+  margin-right: 8px;
+}
+
+.dropdown-button a:active {
+  background-color: transparent;
 }
 
 .nav-contact {
-  color: #fff;
   background-color: #009432;
   border-radius: 16px;
 }
 
+.nav-contact a {
+  color: #fff;
+}
+
 .nav-contact:hover {
-  color: #009432;
   transition: .3s;
   font-weight: bold;
 }
+
+.nav-contact:hover a {
+  transition: .3s;
+  color: #009432;
+}
+
