@@ -1,11 +1,14 @@
 import React from 'react'
 import misionvision from '../../assets/misionvision.png'
+import rectangulo from '../../assets/rectQuienesSomos.png'
 import './MisionVision.css'
 
 function MisionVision() {
   return (
         <div className="container-misionvision">
+            <img className="imagen-rectangulo" src={rectangulo} alt="Rectangulo verde"/>
             <img className="imagen-misionvision" src={misionvision} alt="Decorativo" />
+
             <div className="misionvision">
                 <div className="container-texto">
                     <h2>MISIÓN</h2>

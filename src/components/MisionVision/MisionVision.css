@@ -6,9 +6,19 @@
     margin-top: 5%;
 }
 
+.imagen-rectangulo {
+    width: 330.618px;
+    height: 432.466px;
+    position: relative;
+    margin-top: 10%;
+}
+
 .imagen-misionvision {
     width: 330.618px;
     height: 432.466px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
 }
 
 .misionvision {
@@ -29,7 +39,8 @@
 
 .container-texto h2 {
     color: #009432;
-    font-size: 40px;
+    font-family: Roboto;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -37,9 +48,10 @@
 
 .container-texto p {
     color: #3D4543;
-    font-size: 15px;
+    font-family: Roboto;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 60%;
+    margin-right: 2%;
 }

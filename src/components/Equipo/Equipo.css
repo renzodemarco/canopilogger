@@ -17,7 +17,8 @@
 .container-texto-equipo h2{
     color: #009432;
     text-align: center;
-    font-size: 40px;
+    font-family: Roboto;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -26,17 +27,21 @@
 .container-texto-equipo p{
     color: #3D4543;
     text-align: center;
-    font-size: 15px;
+    font-family: Roboto;
+    font-size: 32px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
-    width: 60%;
+    margin: 0% 2%;
+}
+
+.container-integrantes-equipo {
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    margin-bottom: 2%;
 }
 
 .imagen-deco-equipo {
     width: 100%;
 }
-
-.negrita {
-    font-weight: bold;
-  }

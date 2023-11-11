@@ -1,11 +1,9 @@
 .container-historia {
     display: flex;
-    height: 533px;
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 5% 5% 0 5%;
 }
 
 .container-canopilogger {
@@ -27,11 +25,13 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 29px;
+    margin-left: 5%;
 }
 
 .container-titulo-canopilogger h2 {
     color: #009432;
-    font-size: 30px;
+    font-family: Roboto;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -39,9 +39,8 @@
 }
 .container-subtitulo-canopilogger p{
     color: #000;
-    text-align: justify;
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -56,15 +55,22 @@
 }
 
 .container-ntra-historia h2{
-    color: #009432;
-    font-size: 30px;
+    color:#009432;
+    font-family: Roboto;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .container-ntra-historia p{
-    width: 80%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10%;
 }
 
 .negrita {

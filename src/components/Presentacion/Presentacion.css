@@ -16,12 +16,12 @@
 }
 
 .container-titulo-presentacion h1 {
-  font-size: 40px;
-  margin: 0;
-  text-align: start;
-  padding-top: 18px;
-  padding-bottom: 30px;
-  color:  #009432;
+  color: #009432;
+  font-family: Roboto;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .container-subtitulo-presentacion {
@@ -29,9 +29,12 @@
 }
 
 .container-subtitulo-presentacion h3 {
-  font-size: 20px;
-  text-align: start;
-  color: #3c4543;
+  color:#3D4543;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .container-boton-presentacion {
@@ -41,10 +44,10 @@
 
 .container-boton-presentacion button {
   padding: 14px 26px;
-  background-color: #ccead6(134, 155, 61);
+  border-radius: 40px;
+  background: #CCEAD6;
   color:  #009432;
   border: none;
-  border-radius: 50px;
   cursor: pointer;
   margin: 10px 0px;
   width: 80%;

@@ -7,10 +7,10 @@ function Presentacion() {
     <div className="grid-presentacion">
       <div className='container-presentacion'>
         <div className="container-titulo-presentacion">
-          <h1>Un equipo experto en ciencias y agrometeorología.</h1>
+          <h1>Trazabilidad para que tu negocio pueda crecer.</h1>
         </div>
         <div className="container-subtitulo-presentacion">
-          <h3>Ayudamos a nuestros clientes a tomar decisiones basadas en información.</h3>
+          <h3>Somos un equipo experto en agrometeorología y sostenibilidad para ayudar a nuestros clientes a tomar decisiones basadas en información.</h3>
         </div>
         <div className="container-boton-presentacion">
           <button>Contacta a un asesor</button>

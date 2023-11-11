@@ -1,0 +1,25 @@
+.container-clientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    align-self: stretch;
+    margin-top: 5%;
+}
+
+.container-clientes h2 {
+    color: #009432;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.clientes {
+    display: flex;
+
+gap: 22px;
+}

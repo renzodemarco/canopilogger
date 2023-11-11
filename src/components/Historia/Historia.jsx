@@ -23,7 +23,6 @@ function Historia() {
                 <h2>Nuestra historia</h2>
                 <p>Nuestro recorrido comienza en el ámbito de la docencia e investigación generando conocimiento y desarrollos tecnológicos para la medición de variables agrometeorológicas a campo. Canopilogger nace de la convicción de que es posible aportar valor al sector agrícola mediante <span class="negrita">trazabilidad meteorológica con sostenibilidad ambiental</span>.</p>
          </div>
-
     </div>
   )
 }

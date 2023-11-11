@@ -8,14 +8,23 @@
 }
 
 .container-titulo-servicios h2{
-    padding: 24px;
-    font-size: 26px;
-    font-weight: lighter;
+    color:#3D4543;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .container-subtitulo-servicios h3{
-    font-size: 32px;
-    color: #009432;
+    color:#009432;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .container-video-servicios{

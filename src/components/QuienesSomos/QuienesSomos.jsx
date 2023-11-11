@@ -6,7 +6,7 @@ function QuienesSomos() {
   return (
     <div className="container-quienessomos">
       <div className='container-img-quienessomos'>
-        <img src={pcImg}></img>
+        <img src={pcImg} alt='imagen ilustrtiva'></img>
       </div>
       <div className='container-text-quienessomos'>
         <div className="container-titulo-quienessomos">

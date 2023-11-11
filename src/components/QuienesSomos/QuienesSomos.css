@@ -17,14 +17,21 @@
 }
 
 .container-titulo-quienessomos h2{
-    padding: 20px 0;
-    font-size: 32px;
-    color:#009432;
+    color: #009432;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .container-subtitulo-quienessomos p{
-    padding: 10px 0;
-    font-size: 20px;
+    color: #666;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .button-quienessomos {

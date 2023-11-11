@@ -22,20 +22,16 @@ function Servicios() {
       <div className="container-enum-servicios">
         <EnumServicios 
           img={asesoramiento} 
-          title="Asesoramiento" 
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
+          title="Asesoramiento y Ensayos" 
+          text="Realizamos diseños para evaluar situaciones específicas."/>
         <EnumServicios 
           img={sensores} 
-          title="Sensores" 
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
+          title="Equipos de Medisción" 
+          text="Utilizamos equipos de desarrollo tecnológico propio para medición de variables meteorológicas a campo."/>
         <EnumServicios 
           img={reportes} 
-          title="Reportes" 
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
-        <EnumServicios 
-          img={ensayos} 
-          title="Ensayos I+D" 
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
+          title="Reportes Agrometeorológicos" 
+          text="Para la trazabilidad de las variables meteorológicas y prácticas de manejo a nivel de predio."/>
       </div>
     </div>
   )

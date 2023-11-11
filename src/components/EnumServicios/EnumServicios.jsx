@@ -5,7 +5,7 @@ function Servicios({img, title, text}) {
     return (
         <div className="container-items-servicios">
             <div className="container-img-item-servicios">
-                <img src={img}></img>
+                <img src={img} alt="imagen servicios"></img>
             </div>
             <h4 className="container-title-item-servicios">
                 {title}
