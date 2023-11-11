@@ -26,7 +26,7 @@ function Servicios() {
           text="Realizamos diseños para evaluar situaciones específicas."/>
         <EnumServicios 
           img={sensores} 
-          title="Equipos de Medisción" 
+          title="Equipos de Medición" 
           text="Utilizamos equipos de desarrollo tecnológico propio para medición de variables meteorológicas a campo."/>
         <EnumServicios 
           img={reportes} 
