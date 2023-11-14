@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo-horizontal.svg'
 import './LogoNav.css';
 
@@ -5,7 +7,9 @@ function Logo() {
 
     return (
         <div className='logo-container'>
-            <img src={logo} alt='logo de canopilogger'></img>
+            <Link to="/">
+                <img src={logo} alt='logo de canopilogger' />
+            </Link>
         </div>
     )
 }

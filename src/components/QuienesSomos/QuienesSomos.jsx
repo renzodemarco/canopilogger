@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import pcImg from '../../assets/pc-inicio-inv.svg'
 import './QuienesSomos.css'
 
@@ -16,7 +17,7 @@ function QuienesSomos() {
             <p>Somos una empresa que brinda servicios agrometeorológicos de vanguardia que permiten optimizar tus operaciones. Transformamos datos de alta calidad en información valiosa para tomar decisiones productivas y minimizar pérdidas debido al cambio climático.</p>
         </div>
         <button className="button-quienessomos">
-          Conocer más
+          <Link to="/quienes-somos">Conocer más</Link>
         </button>
       </div>
     </div>

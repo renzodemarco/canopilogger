@@ -4,7 +4,6 @@ import EnumServicios from '../EnumServicios/EnumServicios'
 import asesoramiento from '../../assets/asesoramiento-color.svg'
 import sensores from '../../assets/sensor-color.svg'
 import reportes from '../../assets/reporte-color.svg'
-import ensayos from '../../assets/ensayos-color.svg'
 import './Servicios.css'
 
 function Servicios() {

@@ -26,25 +26,14 @@ function Navbar() {
               <Dropdown.Toggle splitid="dropdown-split-basic" />
               <Dropdown.Menu>
                 <Dropdown.Item><Link to='/quienes-somos#seccion1'>Sobre nosotras</Link></Dropdown.Item>
-                <Dropdown.Item><Link to='/quienes-somos#seccion2'>Conocé el equipo</Link></Dropdown.Item>
-                <Dropdown.Item><Link to='/quienes-somos#seccion3'>Misión y visión</Link></Dropdown.Item>
+                <Dropdown.Item><Link to='/quienes-somos/equipo'>Conocé el equipo</Link></Dropdown.Item>
+                <Dropdown.Item><Link to='/quienes-somos/mision-vision'>Misión y visión</Link></Dropdown.Item>
                 <Dropdown.Item><Link to='/quienes-somos#seccion4'>Nuestros clientes</Link></Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </li>
-          <li className='dropdown-button nav-item'>
-            <Dropdown as={ButtonGroup}>
-              <Button>
-                <Link className='dropdown-button-split' to='/servicios'>Servicios</Link>
-              </Button>
-              <Dropdown.Toggle splitid="dropdown-split-basic" />
-              <Dropdown.Menu>
-                <Dropdown.Item><Link to='/servicios#seccion1'>Asesoramiento</Link></Dropdown.Item>
-                <Dropdown.Item><Link to='/servicios#seccion1'>Sensores</Link></Dropdown.Item>
-                <Dropdown.Item><Link to='/servicios#seccion1'>Reportes</Link></Dropdown.Item>
-                <Dropdown.Item><Link to='/servicios#seccion1'>Ensayos I+D</Link></Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
+          <li className="nav-item nav-servicios">
+            <Link to='/servicios'>Servicios</Link>
           </li>
           <li className="nav-item nav-contact">
             <Link to='/contacto'>Contacto</Link>

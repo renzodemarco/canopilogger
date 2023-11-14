@@ -1,9 +1,9 @@
 import React from 'react'
 import maiz from '../../assets/maiz-abajo.png'
 import IntEquipo from '../EnumEquipo/EnumEquipo'
-import fotoRegina from '../../assets/fotoRegina.jpeg'
-import fotoEva from '../../assets/fotoEva.jpg'
-import fotoVane from '../../assets/fotoVane.jpg'
+import fotoRegina from '../../assets/FotoRegina.png'
+import fotoEva from '../../assets/fotoEva.png'
+import fotoVane from '../../assets/fotoVane.png'
 import './Equipo.css'
 
 function Equipo() {
