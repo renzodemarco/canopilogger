@@ -31,7 +31,6 @@ function Contacto() {
                     </a>
                 </div>
             </div>
-
         </div>
 
     );

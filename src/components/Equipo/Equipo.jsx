@@ -10,7 +10,7 @@ function Equipo() {
   return (
     <div className="container-equipo">
         <div className="container-texto-equipo">
-            <h2>Conoce nuestro equipo</h2>
+            <h2>Conocé nuestro equipo</h2>
             <p>Nos comprometemos a ofrecer servicios de la más alta calidad, respaldados por un equipo altamente calificado que integra parte del Ecosistema Agtech.</p>
         </div>
         <div className='container-integrantes-equipo'>

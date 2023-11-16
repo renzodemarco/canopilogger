@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 55px;
-    margin-top: 5%;
+    gap: 2.25rem;
+    margin-top: 2rem;
 }
 
 .container-texto-equipo {
@@ -11,28 +11,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 22px;
+    gap: 1.1rem;
 }
 
 .container-texto-equipo h2{
     color: #009432;
     text-align: center;
     font-family: Roboto;
-    font-size: 55px;
+    font-size: 2.3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-.container-texto-equipo p{
+.container-texto-equipo p {
     color: #3D4543;
     text-align: center;
     font-family: Roboto;
-    font-size: 32px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin: 0% 2%;
+    padding: 0 4rem;
 }
 
 .container-integrantes-equipo {

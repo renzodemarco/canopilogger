@@ -14,7 +14,7 @@ function Presentacion() {
         </div>
         <div className="container-boton-presentacion">
           <button>
-            <a href="mailto:vcanopilogger@gmail.com">Contacta a un asesor</a>
+            Contacta a un asesor
           </button>
         </div>
       </div>

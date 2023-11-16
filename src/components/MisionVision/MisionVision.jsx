@@ -4,8 +4,8 @@ import rectangulo from '../../assets/rectQuienesSomos.png'
 import './MisionVision.css'
 
 function MisionVision() {
-  return (
-        <div className="container-misionvision" id="mision-y-vision">
+    return (
+        <div className="container-misionvision">
             <img className="imagen-rectangulo" src={rectangulo} alt="Rectangulo verde"/>
             <img className="imagen-misionvision" src={misionvision} alt="Decorativo" />
 
@@ -20,9 +20,7 @@ function MisionVision() {
                 </div>
             </div>
         </div>
-
-    
-  )
+    )
 }
 
 export default MisionVision
