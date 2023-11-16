@@ -32,7 +32,7 @@ function Navbar() {
               </Dropdown.Menu>
             </Dropdown>
           </li>
-          <li className="nav-item nav-servicios">
+          <li className="nav-item">
             <Link to='/servicios'>Servicios</Link>
           </li>
           <li className="nav-item nav-contact">
