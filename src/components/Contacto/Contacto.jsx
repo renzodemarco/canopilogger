@@ -2,7 +2,6 @@ import React from "react";
 import iconIg from '../../assets/icon-ig.svg'
 import iconFb from '../../assets/icon-fb.svg'
 import iconLn from '../../assets/icon-ln.svg'
-import iconYt from '../../assets/icon-yt.svg'
 import rectangulo from '../../assets/rectContacto.png'
 import deco from '../../assets/decoContacto.png'
 import logo from '../../assets/logoRedondo.png'
@@ -29,9 +28,6 @@ function Contacto() {
                     </a>
                     <a href='https://www.linkedin.com/in/servicios-meteorol%C3%B3gicos-para-el-agro-y-el-ambiente-446908259/' target="_blank" rel="noreferrer">
                         <img src={iconLn} alt="enlace linkedin"/>
-                    </a>
-                    <a href='http://www.youtube.com/' target="_blank" rel="noreferrer">
-                        <img src={iconYt} alt="enlace youtube"/>
                     </a>
                 </div>
             </div>
