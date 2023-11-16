@@ -7,13 +7,13 @@ import Equipo from '../components/Equipo/Equipo'
 
 function QuienesSomosScreen() {
   return (
-    <div>
+    <>
         <Historia></Historia>
         <VideoContainer></VideoContainer>
         <MisionVision></MisionVision>
         <Equipo></Equipo>
         <Footer/>
-    </div>
+    </>
   )
 }
 

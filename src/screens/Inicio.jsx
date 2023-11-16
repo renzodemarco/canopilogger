@@ -7,13 +7,13 @@ import Footer from '../components/Footer/Footer'
 
 function Inicio() {
   return (
-    <div className='inicio-container'>
+    <>
         <Presentacion/>
         <Servicios/>
         <QuienesSomos/>
         <VideoContainer/>
         <Footer/>
-    </div>
+    </>
   )
 }
 

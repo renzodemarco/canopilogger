@@ -4,12 +4,12 @@ import EnumServicios from '../EnumServicios/EnumServicios'
 import asesoramiento from '../../assets/asesoramiento-color.svg'
 import sensores from '../../assets/sensor-color.svg'
 import reportes from '../../assets/reporte-color.svg'
-import ensayos from '../../assets/ensayos-color.svg'
+// import ensayos from '../../assets/ensayos-color.svg'
 import './Servicios.css'
 
 function Servicios() {
   return (
-    <div className="container-servicios">
+    <div className="container-servicios" id="seccion-servicios">
       <div className="img-fondo-container">
         <img src={fondoSemillas}  alt="Imagen semillas"/>
       </div>

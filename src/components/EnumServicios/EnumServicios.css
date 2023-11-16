@@ -5,20 +5,19 @@
   }
   
   .container-img-item-servicios img {
-    margin-right: 10px;
+    margin-right: .5rem;
     display: flex;
-    width: 45.18px;
-    height: 60.404px;
+    height: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   
   .container-title-item-servicios {
-    margin: 10px 10px;
+    margin: .5rem .5rem;
     color: #3C4543;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -28,13 +27,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 11px;
-    width: 300px;
-
+    gap: .55rem;
+    width: 15rem;
     color:#666;
     text-align: center;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

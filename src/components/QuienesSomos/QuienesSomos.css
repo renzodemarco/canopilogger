@@ -1,7 +1,7 @@
 .container-quienessomos{
     width: 100%;
-    padding: 30px 180px;
-    margin: 18px 0 60px;
+    padding: 1.5rem 9rem;
+    margin: .9rem 0 3rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,13 +13,13 @@
 
 .container-text-quienessomos {
     width: 72%;
-    padding: 0 30px ;
+    padding: 0 1.5rem;
 }
 
 .container-titulo-quienessomos h2{
     color: #009432;
     font-family: Roboto;
-    font-size: 55px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -27,8 +27,9 @@
 
 .container-subtitulo-quienessomos p{
     color: #666;
+    /* text-align: justify; */
     font-family: Roboto;
-    font-size: 32px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -36,12 +37,12 @@
 
 .button-quienessomos {
     background-color: #ffde59;
-    padding: 14px 26px;
+    padding: .7rem 1.3rem;
     border: none;
-    border-radius: 50px;
+    border-radius: 2.5rem;
     cursor: pointer;
-    margin: 10px 0px;
+    margin: .5rem 0;
     width: 40%;
-    font-size: 18px;
+    font-size: .9rem;
     font-weight: 600;
 }

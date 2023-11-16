@@ -3,19 +3,19 @@
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
-    margin: 5% 5% 0 5%;
+    margin: 1.4rem 4rem 0;
 }
 
 .container-canopilogger {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 2rem;
 }
 .container-img-historia {
     display: flex;
-    width: 364.299px;
-    height: 331.797px;
+    width: 18.2rem;
+    height: 16.6rem;
     justify-content: center;
     align-items: center;
 }
@@ -23,54 +23,58 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 29px;
+    gap: 1.45rem;
     margin-left: 5%;
 }
 
 .container-titulo-canopilogger h2 {
     color: #009432;
     font-family: Roboto;
-    font-size: 55px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 
 }
-.container-subtitulo-canopilogger p{
+.container-subtitulo-canopilogger p {
     color: #000;
     font-family: Roboto;
-    font-size: 32px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.container-ntra-historia{
+.container-ntra-historia {
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 26px;
+    gap: 1.3rem;
 }
 
-.container-ntra-historia h2{
+.container-ntra-historia h2 {
     color:#009432;
     font-family: Roboto;
-    font-size: 55px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-.container-ntra-historia p{
+.container-ntra-historia p {
     color: #000;
     font-family: Roboto;
-    font-size: 32px;
-    font-style: normal;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: normal;
     padding-bottom: 10%;
 }
 
-.negrita {
-    font-weight: bold;
-  }
+.container-ntra-historia p span {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+

@@ -5,7 +5,7 @@ import './MisionVision.css'
 
 function MisionVision() {
   return (
-        <div className="container-misionvision">
+        <div className="container-misionvision" id="mision-y-vision">
             <img className="imagen-rectangulo" src={rectangulo} alt="Rectangulo verde"/>
             <img className="imagen-misionvision" src={misionvision} alt="Decorativo" />
 

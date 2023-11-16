@@ -17,15 +17,16 @@
 .navbar-left {
   height: 100%;
   width: 30%;
-  margin-right: 10%;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .navbar-right {
   height: 100%;
-  width: 60%;
+  width: 58%;
   display: flex;
+  justify-content: stretch;
   align-items: center;
 }
 
@@ -33,7 +34,7 @@
 .nav-list {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   margin: 0;
   padding: 0; 

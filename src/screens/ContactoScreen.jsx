@@ -5,11 +5,11 @@ import footer from '../assets/footerContacto.png'
 
 function ContactoScreen() {
   return (
-    <div>
+    <>
         <Clientes/>
         <Contacto/>
         <img className="img-footer" src={footer} alt="rectangulo verde"/>
-    </div>
+    </>
   )
 }
 

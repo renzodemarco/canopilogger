@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: .5rem;
 }
 
 .container-intro-portservicios{
@@ -13,26 +13,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 11px;
+    gap: .55rem;
 }
 
 .container-titulo-portservicios h2{
     color: #009432;
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 24px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.5rem;
 }
 
 .container-subtitulo-portservicios h3{
     color: #256D72;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 24px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.5rem;
 }
 
 .imagen-portservicios {
