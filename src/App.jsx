@@ -19,14 +19,13 @@ function App() {
     <Navbar/>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Inicio/>}/>
-          <Route path="/quienes-somos" element={<QuienesSomosScreen/>}/>
-          <Route path="/contacto" element={<ContactoScreen/>}/>
-          <Route path="/quienes-somos/sobre-nosotras" element={<NosotrasScreen/>}/>
-          <Route path="/quienes-somos/equipo" element={<EquipoScreen/>}/>
-          <Route path="/quienes-somos/mision-vision" element={<MisionVisionScreen/>}/>
-          <Route path="/servicios" element={<ServiciosScreen/>}/>
-          <Route path="/contacto" element={<ContactoScreen/>}/>
+            <Route path="/" element={<Inicio/>}/>
+            <Route path="/quienes-somos" element={<QuienesSomosScreen/>}/>
+            <Route path="/contacto" element={<ContactoScreen/>}/>
+            <Route path="/quienes-somos/sobre-nosotras" element={<NosotrasScreen/>}/>
+            <Route path="/quienes-somos/equipo" element={<EquipoScreen/>}/>
+            <Route path="/quienes-somos/mision-vision" element={<MisionVisionScreen/>}/>
+            <Route path="/servicios" element={<ServiciosScreen/>}/>
         </Routes>
       </div>
     </BrowserRouter>
