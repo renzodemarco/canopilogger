@@ -19,6 +19,13 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+  .img-footer {
+    width: 100%;
+  }
+}
+
+
 
 @media screen and (min-width: 600px) {
   * {

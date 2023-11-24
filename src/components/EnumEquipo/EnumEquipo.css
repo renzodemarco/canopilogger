@@ -7,6 +7,13 @@
   .container-img-item-integrantes {
     margin-right: .5rem;
   }
+
+  @media (max-width: 1024px) {
+    .container-img-item-integrantes img {
+      width: 100%;
+    }
+  }
+
   
   .container-name-item-integrantes {
     margin: .6rem 0 .2rem;

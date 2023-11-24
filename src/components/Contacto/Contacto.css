@@ -14,11 +14,23 @@
     margin-top: 5rem;
 }
 
+@media (max-width: 834px) {
+    .img-rectangulo {
+        width: 80%;
+    } 
+  }
+
 .img-vid {
     position: absolute;
     left: 0;
     z-index: 1;
 }
+
+@media (max-width: 834px) {
+    .img-vid {
+        width: 40%;
+    } 
+  }
 
 .img-logo {
     position: absolute;
@@ -27,11 +39,24 @@
     z-index: 1;
 }
 
+@media (max-width: 834px) {
+    .img-logo {
+        width: 20%;
+        left: 14rem;
+    } 
+  }
+
 .right{
     margin-right: 8rem;
     margin-top: 3.6rem;
     width: 18rem;
 }
+
+@media (max-width: 834px) {
+    .right {
+        margin-left: 5%;
+    } 
+  }
 
 .container-contacto h4 {
     color: #009432;

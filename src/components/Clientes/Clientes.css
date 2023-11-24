@@ -8,6 +8,13 @@
     margin-top: 5%;
 }
 
+
+@media (max-width: 1024px) {
+    .clientes {
+      width: 100%;
+    }
+  }
+
 .container-clientes h2 {
     color: #009432;
     text-align: center;

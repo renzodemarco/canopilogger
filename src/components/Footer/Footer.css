@@ -42,6 +42,18 @@
   left: 22.5rem;
 }
 
+@media (max-width: 1024px) {
+  .container-logo {
+    left: 18rem;
+  } 
+}
+
+@media (max-width: 834px) {
+  .container-logo {
+    left: 16rem;
+  } 
+}
+
 .container-footer-right {
   display: flex;
   width: 17rem;
