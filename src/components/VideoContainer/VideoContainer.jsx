@@ -10,7 +10,7 @@ function VideoContainer() {
         <div className="video-overlay">
             <div className="video-presentation-container"> 
                 <h2 className="video-text">Te mostramos nuestros pilares</h2>
-                <a href='http://www.youtube.com/' target="_blank" rel="noreferrer">
+                <a href='https://youtu.be/NTfYxT09uTM?si=yzMrUIGAdgF5zhDA' target="_blank" rel="noreferrer">
                     <img src={play} className="video-play" alt="play video"/>
                 </a>
             </div>
