@@ -6,9 +6,6 @@ import Inicio from './screens/Inicio'
 import QuienesSomosScreen from './screens/QuienesSomosScreen'
 import ContactoScreen from './screens/ContactoScreen'
 import ServiciosScreen from './screens/ServiciosScreen'
-import NosotrasScreen from './screens/NosotrasScreen'
-import EquipoScreen from './screens/EquipoScreen';
-import MisionVisionScreen from './screens/MisionVisionScreen';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {

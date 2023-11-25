@@ -18,7 +18,7 @@ function Contacto() {
             <div className="right">
                 <h4>Contáctanos hoy</h4>
                 <p className="texto1">Escríbenos a:</p>
-                <p className="texto2">vcanopilogger@gmail.com</p>
+                <p className="texto2">canopilogger@gmail.com</p>
                 <div className="container-redes">
                     <a href='https://www.facebook.com/canopilogger' target="_blank" rel="noreferrer">
                         <img src={iconFb} alt="enlace facebook"/>

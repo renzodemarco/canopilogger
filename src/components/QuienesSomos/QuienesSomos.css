@@ -7,14 +7,42 @@
     justify-content: center;
 }
 
+@media (max-width: 1024px) {
+    .container-quienessomos {
+        padding: 10px;
+        margin: 25px;
+    } 
+}
+
+@media (max-width: 834px) {
+    .nav-item {
+        padding: 10px;
+        margin: 20px; 
+    }
+  }
+
 .container-img-quienessomos {
     width: 38%;
 }
+
+@media (max-width: 834px) {
+    .container-text-quienessomos {
+        margin-left: 10%;
+    }
+  }
+
+
 
 .container-text-quienessomos {
     width: 72%;
     padding: 0 1.5rem;
 }
+
+@media (max-width: 834px) {
+    .container-text-quienessomos p {
+        width: 68%;
+    }
+  }
 
 .container-titulo-quienessomos h2{
     color: #009432;
@@ -34,6 +62,12 @@
     font-weight: 400;
     line-height: normal;
 }
+
+@media (max-width: 834px) {
+    .container-subtitulo-quienessomos p {
+        font-size: 1rem;
+    }
+  }
 
 .button-quienessomos {
     background-color: #ffde59;

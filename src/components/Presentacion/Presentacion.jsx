@@ -13,9 +13,7 @@ function Presentacion() {
           <h3>Somos un equipo experto en agrometeorología y sostenibilidad para ayudar a nuestros clientes a tomar decisiones basadas en información.</h3>
         </div>
         <div className="container-boton-presentacion">
-          <button>
-            Contacta a un asesor
-          </button>
+          <a href="mailto:canopilogger@gmail.com"><button>Contacta a un asesor</button></a>
         </div>
       </div>
       <div className="container-imagen-presentacion">

@@ -13,6 +13,12 @@
   z-index: 999;
 }
 
+@media (max-width: 834px) {
+  .navbar {
+    justify-content: center;
+  }
+}
+
 /* Estilos para el logo */
 .navbar-left {
   height: 100%;
@@ -20,6 +26,12 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+@media (max-width: 834px) {
+  .navbar-left {
+    margin-right: 5%;
+  }
 }
 
 .navbar-right {
@@ -48,6 +60,19 @@
   position: relative;
   transition: color 0.3s; /* Transición de color al pasar el mouse */
 }
+
+@media (max-width: 1024px) {
+  .nav-item {
+    padding: 12px 9px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-item a {
+    font-size: 16px;
+  }
+}
+
 
 .nav-item:hover {
   background-color: #cbe9d5;
