@@ -52,6 +52,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .container-footer-left h2{
+    font-size: 20px;
+  }
+}
+
 .img-deco-rectangulo {
   position: relative;
   left: 0;

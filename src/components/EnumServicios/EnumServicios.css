@@ -55,3 +55,9 @@
       width: 10rem;
     }
   }
+
+  @media (max-width: 414px) {
+    .container-text-item-servicios {
+      width: 100%;
+    }
+  }

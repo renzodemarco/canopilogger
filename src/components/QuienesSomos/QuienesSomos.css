@@ -27,7 +27,8 @@
     .container-quienessomos{
         flex-direction: column;
         text-align: center;
-        margin-top: 10%;
+        padding: 0 0;
+        margin: 0 0;
     }
 }
 
@@ -71,7 +72,7 @@
 @media (max-width: 414px) {
     .container-text-quienessomos {
         width: 100%;
-        padding: 0 0rem;
+        margin: 0px 0px 0px 0px;
     }
 }
 
@@ -95,6 +96,12 @@
     .container-titulo-quienessomos h2{
         font-size: 30px;
         padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container-subtitulo-quienessomos{
+        width: 100%;
     }
 }
 
@@ -122,7 +129,6 @@
 
 @media (max-width: 414px) {
     .container-subtitulo-quienessomos p{
-        font-size: 20px;
         padding-bottom: 10px;
     }
 }
