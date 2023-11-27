@@ -20,6 +20,12 @@
     margin-top: 5rem;
 }
 
+@media (max-width: 834px) {
+    .img-rectangulo {
+        width: 80%;
+    }
+}
+
 @media (max-width: 414px) {
     .img-rectangulo {
         width: 100%;
@@ -39,6 +45,12 @@
     }
 }
 
+@media (max-width: 834px) {
+    .img-vid {
+        top: 420px;
+    }
+}
+
 @media (max-width: 414px) {
     .img-vid {
         width: 50%;
@@ -51,6 +63,13 @@
     top: 33rem;
     left: 18rem;
     z-index: 1;
+}
+
+@media (max-width: 834px) {
+    .img-logo {
+        left:16rem;
+        top: 33rem;
+    }
 }
 
 @media (max-width: 414px) {
@@ -70,6 +89,12 @@
 @media (max-width: 1024px) {
     .right{
         margin-left: 14%;
+    }
+}
+
+@media (max-width: 834px) {
+    .right{
+        margin: 50px 0 0 0;
     }
 }
 

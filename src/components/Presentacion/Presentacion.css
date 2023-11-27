@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 834px) {
   .grid-presentacion {
     grid-template-columns: 60% 40%;
   }
@@ -39,6 +39,12 @@
   text-align: start;
 }
 
+@media (max-width: 834px) {
+  .container-titulo-presentacion h1 {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 414px) {
   .container-titulo-presentacion h1 {
     font-size: 20px;
@@ -57,6 +63,12 @@
   font-weight: 700;
   line-height: normal;
   text-align: start;
+}
+
+@media (max-width: 834px) {
+  .container-subtitulo-presentacion h3 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 414px) {

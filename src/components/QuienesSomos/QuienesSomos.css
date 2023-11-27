@@ -17,10 +17,14 @@
     }
 }
 
+@media (max-width: 834px) {
+    .container-quienessomos{
+        margin-top: 40px;
+    }
+}
+
 @media (max-width: 414px) {
     .container-quienessomos{
-        padding: 0rem 0rem;
-        margin: 0rem 0 0rem;
         flex-direction: column;
         text-align: center;
         margin-top: 10%;
@@ -34,6 +38,13 @@
 @media (max-width: 414px) {
     .container-img-quienessomos {
         width: 100%;
+    }
+}
+
+@media (max-width: 834px) {
+    .container-img-quienessomos img {
+        width: 100%;
+        margin-top: 10%;
     }
 }
 
@@ -100,6 +111,12 @@
 @media (max-width: 1024px) {
     .container-subtitulo-quienessomos p{
         font-size: 24px;
+    }
+}
+
+@media (max-width: 834px) {
+    .container-subtitulo-quienessomos p{
+        font-size: 20px;
     }
 }
 
