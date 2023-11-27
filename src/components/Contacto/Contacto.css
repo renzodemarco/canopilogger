@@ -33,6 +33,12 @@
     z-index: 1;
 }
 
+@media (max-width: 1024px) {
+    .img-vid {
+        width: 46%;
+    }
+}
+
 @media (max-width: 414px) {
     .img-vid {
         width: 50%;
@@ -59,6 +65,12 @@
     margin-right: 8rem;
     margin-top: 3.6rem;
     width: 18rem;
+}
+
+@media (max-width: 1024px) {
+    .right{
+        margin-left: 14%;
+    }
 }
 
 @media (max-width: 414px) {

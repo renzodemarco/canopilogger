@@ -38,7 +38,14 @@
 
 @media (max-width: 414px) {
     .container-titulo-servicios h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container-titulo-servicios h2 {
         font-size: 30px;
+        margin-top: 30px;
     }
 }
 
@@ -56,6 +63,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+@media (max-width: 1024px) {
+    .container-subtitulo-servicios h3{
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 414px) {

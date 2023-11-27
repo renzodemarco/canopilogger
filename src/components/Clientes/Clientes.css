@@ -14,12 +14,6 @@
 }
 }
 
-@media (max-width: 1024px) {
-    .clientes {
-      width: 100%;
-    }
-  }
-
 .container-clientes h2 {
     color: #009432;
     text-align: center;
@@ -28,6 +22,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+@media (max-width: 1024px) {
+  .container-clientes h2 {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 414px) {

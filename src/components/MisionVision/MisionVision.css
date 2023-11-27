@@ -6,6 +6,14 @@
     margin: 1rem 0 3rem;
 }
 
+@media (max-width: 1024px) {
+    .container-misionvision {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+}
+
 .imagen-rectangulo {
     width: 16.5rem;
     height: 21.6rem;
@@ -72,6 +80,12 @@
     line-height: normal;
 }
 
+@media (max-width: 1024px) {
+    .container-texto h2 {
+        font-size: 40px;
+    }
+}
+
 @media (max-width: 414px) {
     .container-texto h2 {
         font-size: 32px;
@@ -87,6 +101,12 @@
     font-weight: 400;
     line-height: normal;
     margin-right: 2%;
+}
+
+@media (max-width: 1024px) {
+    .container-texto p {
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 414px) {

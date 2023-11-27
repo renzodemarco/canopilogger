@@ -30,6 +30,12 @@
     line-height: normal;
 }
 
+@media (max-width: 1024px) {
+    .container-texto-equipo h2{
+        font-size: 40px;
+    }
+}
+
 @media (max-width: 414px) {
     .container-texto-equipo h2{
         font-size: 32px;
@@ -45,6 +51,13 @@
     font-weight: 700;
     line-height: normal;
     padding: 0 4rem;
+}
+
+@media (max-width: 1024px) {
+    .container-texto-equipo p{
+        font-size: 24px;
+        width: 88%;
+    }
 }
 
 @media (max-width: 414px) {

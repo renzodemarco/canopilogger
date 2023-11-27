@@ -54,6 +54,12 @@
     line-height: normal;
 }
 
+@media (max-width: 1024px) {
+    .video-text {
+        font-size: 40px;
+    }
+}
+
 @media (max-width: 414px) {
     .video-text {
         font-size: 30px;
