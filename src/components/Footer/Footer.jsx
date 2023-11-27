@@ -10,7 +10,7 @@ function Footer() {
     return (
         <div className="container-footer">
             <div className="container-footer-left">
-                <img src={rectangulo} alt="rectangulo verde"/>
+                <img className="img-deco-rectangulo" src={rectangulo} alt="rectangulo verde"/>
                 <div className="container-logo">
                     <img className="img-canopilogo" src={canopiLogo} alt="logo"/>
                     <h2>¡SEGUINOS!</h2>

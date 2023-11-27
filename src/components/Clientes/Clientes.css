@@ -8,6 +8,11 @@
     margin-top: 5%;
 }
 
+@media (max-width: 414px) {
+  .container-clientes{
+    margin-top: 20%;
+}
+}
 
 @media (max-width: 1024px) {
     .clientes {
@@ -25,9 +30,27 @@
     line-height: normal;
 }
 
+@media (max-width: 414px) {
+  .container-clientes h2 {
+    font-size: 32px;
+  }
+}
+
 .clientes {
     display: flex;
     width: 60%;
     align-items: center;
     justify-content: space-around;
+}
+
+@media (max-width: 414px) {
+  .clientes {
+    width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .clientes img {
+    width: 120px;
+  }
 }
