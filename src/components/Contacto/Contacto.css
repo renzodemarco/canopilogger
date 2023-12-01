@@ -9,6 +9,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 414px) {
+    .container-contacto {
+        flex-direction: column-reverse;
+    }
+}
+
 .img-rectangulo {
     position: relative;
     margin-top: 5rem;
@@ -17,8 +23,15 @@
 @media (max-width: 834px) {
     .img-rectangulo {
         width: 80%;
-    } 
-  }
+    }
+}
+
+@media (max-width: 414px) {
+    .img-rectangulo {
+        width: 100%;
+        height: 200px;
+    }
+}
 
 .img-vid {
     position: absolute;
@@ -26,11 +39,24 @@
     z-index: 1;
 }
 
+@media (max-width: 1024px) {
+    .img-vid {
+        width: 46%;
+    }
+}
+
 @media (max-width: 834px) {
     .img-vid {
-        width: 40%;
-    } 
-  }
+        top: 420px;
+    }
+}
+
+@media (max-width: 414px) {
+    .img-vid {
+        width: 50%;
+        top: 680px;
+    }
+}
 
 .img-logo {
     position: absolute;
@@ -41,10 +67,18 @@
 
 @media (max-width: 834px) {
     .img-logo {
-        width: 20%;
-        left: 14rem;
-    } 
-  }
+        left:16rem;
+        top: 33rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .img-logo {
+        width: 50%;
+        left:200px;
+        top:680px;
+    }
+}
 
 .right{
     margin-right: 8rem;
@@ -52,11 +86,24 @@
     width: 18rem;
 }
 
+@media (max-width: 1024px) {
+    .right{
+        margin-left: 14%;
+    }
+}
+
 @media (max-width: 834px) {
-    .right {
-        margin-left: 5%;
-    } 
-  }
+    .right{
+        margin: 50px 0 0 0;
+    }
+}
+
+@media (max-width: 414px) {
+    .right{
+        width: 100%;
+        text-align: center;
+    }
+}
 
 .container-contacto h4 {
     color: #009432;
@@ -64,6 +111,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.7rem; 
+}
+
+@media (max-width: 414px) {
+    .container-contacto h4 {
+        font-size: 24px;
+    }
 }
 
 .texto1 {
@@ -75,6 +128,12 @@
     margin: 2.5rem 0 .2rem;
 }
 
+@media (max-width: 414px) {
+    .texto1 {
+        font-size: 18px;
+    }
+}
+
 .texto2 {
     color: #3C4543;
     font-size: 1.4rem;
@@ -82,6 +141,12 @@
     font-weight: 400;
     line-height: 1.7rem;
     text-decoration-line: underline;
+}
+
+@media (max-width: 414px) {
+    .texto2 {
+        font-size: 18px;
+    }
 }
 
 .container-redes {
@@ -93,7 +158,22 @@
     margin-top: 2.5rem;
 }
 
+@media (max-width: 414px) {
+    .container-redes {
+        width: 100%;
+        align-items:center;
+        justify-content: center;
+    }
+}
+
 .container-redes a img {
     width: 2rem;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media (max-width: 414px) {
+    .container-redes a img {
+        width: 100%;
+    }
+    
 }

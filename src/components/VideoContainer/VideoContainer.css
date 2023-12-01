@@ -10,6 +10,12 @@
     object-position: center top;
 }
 
+@media (max-width: 414px) {
+    .video-img {
+        height: 320px;
+    }
+}
+
 .video-overlay {
     position: absolute;
     top: 0;
@@ -28,6 +34,14 @@
     align-items: center;
 }
 
+@media (max-width: 414px) {
+    .video-presentation-container {
+        align-items:start;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+}
+
 .video-text {
     width: 60%;
     margin-bottom: 1rem;
@@ -40,7 +54,28 @@
     line-height: normal;
 }
 
+@media (max-width: 1024px) {
+    .video-text {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 414px) {
+    .video-text {
+        font-size: 30px;
+        margin-top: 20%;
+        padding-left: 0;
+    }
+}
+
 .video-play {
     width: 2rem;
     cursor: pointer;
+}
+
+@media (max-width: 414px) {
+    .video-play {
+        width: 41.057px;
+        height: 41.057px;
+    }
 }

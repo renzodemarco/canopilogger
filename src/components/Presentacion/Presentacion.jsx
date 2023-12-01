@@ -1,5 +1,5 @@
 import React from 'react';
-import pcImg from '../../assets/pc-inicio.svg'
+import pcImg from '../../assets/img-deco-principal.png'
 import './Presentacion.css'
 
 function Presentacion() {

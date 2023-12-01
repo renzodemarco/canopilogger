@@ -22,6 +22,12 @@
     font-weight: 700;
     line-height: normal;
   }
+
+  @media (max-width: 414px) {
+    .container-title-item-servicios {
+      font-size: 15px;
+    }
+  }
   
   .container-text-item-servicios {
     display: flex;
@@ -36,4 +42,22 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+
+  @media (max-width: 1024px) {
+    .container-text-item-servicios {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 834px) {
+    .container-text-item-servicios {
+      width: 10rem;
+    }
+  }
+
+  @media (max-width: 414px) {
+    .container-text-item-servicios {
+      width: 100%;
+    }
   }

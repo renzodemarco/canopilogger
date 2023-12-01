@@ -6,12 +6,31 @@
     margin: 1.4rem 4rem 0;
 }
 
+@media (max-width: 834px) {
+    .container-historia {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-historia {
+        margin: 10%;
+    }
+}
+
 .container-canopilogger {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 }
+
+@media (max-width: 414px) {
+    .container-canopilogger {
+        flex-direction: column-reverse;
+    }
+}
+
 .container-img-historia {
     display: flex;
     width: 18.2rem;
@@ -19,12 +38,19 @@
     justify-content: center;
     align-items: center;
 }
+
 .container-text-canopilogger {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.45rem;
     margin-left: 5%;
+}
+
+@media (max-width: 834px) {
+    .container-text-canopilogger {
+        margin-left: 0;
+    }
 }
 
 .container-titulo-canopilogger h2 {
@@ -34,8 +60,21 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
+
+@media (max-width: 1024px) {
+    .container-titulo-canopilogger h2 {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .container-titulo-canopilogger h2 {
+        font-size: 32px;
+    }
+}
+
 .container-subtitulo-canopilogger p {
     color: #000;
     font-family: Roboto;
@@ -45,12 +84,38 @@
     line-height: normal;
 }
 
+@media (max-width: 1024px) {
+    .container-subtitulo-canopilogger p {
+        font-size: 24px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 834px) {
+    .container-subtitulo-canopilogger p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-subtitulo-canopilogger p {
+        font-size: 15px;
+    }
+}
+
 .container-ntra-historia {
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.3rem;
+}
+
+@media (max-width: 414px) {
+    .container-ntra-historia {
+        margin: 0 10px;
+        margin-top: 10%;
+    }
 }
 
 .container-ntra-historia h2 {
@@ -62,6 +127,18 @@
     line-height: normal;
 }
 
+@media (max-width: 1024px) {
+    .container-ntra-historia h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-ntra-historia h2 {
+        font-size: 32px;
+    }
+}
+
 .container-ntra-historia p {
     color: #000;
     font-family: Roboto;
@@ -71,10 +148,35 @@
     padding-bottom: 10%;
 }
 
+@media (max-width: 1024px) {
+    .container-ntra-historia p {
+        font-size: 24px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 834px) {
+    .container-ntra-historia p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-ntra-historia p {
+        font-size: 15px;
+    }
+}
+
 .container-ntra-historia p span {
     color: #000;
     font-family: Roboto;
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+@media (max-width: 414px) {
+    .container-ntra-historia p span{
+        font-size: 15px;
+    }
 }
 
