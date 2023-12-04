@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import Logo from '../LogoNav/LogoNav';
+import NavResponsive from '../NavResponsive/NavResponsive';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -25,6 +26,9 @@ function Navbar() {
             <Link to='/contacto'>Contacto</Link>
           </li>
         </ul>
+        <div className='nav-responsive-container'>
+          <NavResponsive/>
+        </div>
       </div>
     </nav>
 

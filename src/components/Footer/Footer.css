@@ -116,6 +116,16 @@
   flex-shrink: 0;
 }
 
+.container-footer-right a {
+  transition: .3s;
+  filter: brightness(100%)
+}
+
+.container-footer-right a:hover {
+  transform: scale(1.1);
+  filter: brightness(120%)
+}
+
 @media (max-width: 414px) {
   .container-footer-right {
     width: 100%;

@@ -158,6 +158,16 @@
     margin-top: 2.5rem;
 }
 
+.container-redes a {
+    transition: .3s;
+    filter: brightness(100%)
+}
+
+.container-redes a:hover {
+    transform: scale(1.1);
+    filter: brightness(120%)
+}
+
 @media (max-width: 414px) {
     .container-redes {
         width: 100%;

@@ -45,12 +45,6 @@
   }
 }
 
-@media (max-width: 414px) {
-  .container-titulo-presentacion h1 {
-    font-size: 20px;
-  }
-}
-
 .container-subtitulo-presentacion {
   padding: .5rem;
 }
@@ -139,4 +133,17 @@
   }
 }
 
-
+@media (max-width: 680px) {
+  .grid-presentacion {
+    grid-template-columns: 64% 36%;
+  }
+  .container-presentacion {
+    margin-left: 10px;
+  }
+  .container-titulo-presentacion h1 {
+    font-size: 30px;
+  }
+  .container-subtitulo-presentacion h3 {
+    font-size: 15px;
+  }
+}

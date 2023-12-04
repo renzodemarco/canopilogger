@@ -143,6 +143,12 @@
     width: 40%;
     font-size: .9rem;
     font-weight: 600;
+    transition: .3s
+}
+
+.button-quienessomos:hover {
+    transform: scale(1.05);
+    filter: brightness(1.05)
 }
 
 @media (max-width: 414px) {
