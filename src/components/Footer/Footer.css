@@ -83,27 +83,34 @@
 
 @media (max-width: 1024px) {
   .container-logo{
-    left: 18rem;
+    left: 14rem;
   }
 }
 
 @media (max-width: 834px) {
   .container-logo{
-    left: 8rem;
-  }
-}
-
-@media (max-width: 414px) {
-  .container-logo{
-    left: 0;
-    margin-left: 25%;
+    left: 5rem;
   }
 }
 
 .img-canopilogo {
   width: 13.8rem;
-  height: 8.5rem;
   flex-shrink: 0;
+}
+
+
+@media (max-width: 500px) {
+  .container-logo{
+    left: 0;
+    margin-left: 6%;
+  }
+}
+
+@media (max-width: 580px) {
+  .img-canopilogo {
+    width: 10rem;
+    flex-shrink: 0;
+  }
 }
 
 .container-footer-right {
@@ -129,6 +136,12 @@
 @media (max-width: 414px) {
   .container-footer-right {
     width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 680px) {
+  .container-footer-right a {
     justify-content: center;
   }
 }

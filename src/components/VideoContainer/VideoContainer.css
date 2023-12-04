@@ -34,7 +34,7 @@
     align-items: center;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 580px) {
     .video-presentation-container {
         align-items:start;
         margin-left: 30px;
@@ -60,11 +60,12 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 580px) {
     .video-text {
-        font-size: 30px;
+        font-size: 36px;
         margin-top: 20%;
         padding-left: 0;
+        width: 70%;
     }
 }
 
@@ -79,7 +80,7 @@
     filter: brightness(1.1)
 }
 
-@media (max-width: 414px) {
+@media (max-width: 580px) {
     .video-play {
         width: 41.057px;
         height: 41.057px;

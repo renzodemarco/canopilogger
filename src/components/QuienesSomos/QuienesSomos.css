@@ -23,10 +23,12 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 580px) {
     .container-quienessomos{
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        justify-content: center;
         padding: 0 0;
         margin: 0 0;
     }
@@ -168,5 +170,15 @@
     .button-quienessomos a {
         font-size: 18px;
         font-weight: 400;
+    }
+}
+
+
+@media (max-width: 728px) {
+    .container-text-item-servicios {
+        width: 250px;
+    }
+    .button-quienessomos {
+        width: 160px;
     }
 }

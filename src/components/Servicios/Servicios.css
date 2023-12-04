@@ -1,6 +1,7 @@
 .container-servicios{
     text-align: center;
     background-color: #fff;
+    width: 100%;
 }
 
 @media (max-width: 414px) {
@@ -80,6 +81,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 68px 50px;
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -88,10 +90,23 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 680px) {
+    .container-titulo-servicios h2 {
+        font-size: 26px;
+    }
+    .container-subtitulo-servicios h3 {
+        font-size: 28px;
+        padding-right: 0 10px;
+    }
+    .container-enum-servicios {
+        padding: 68px 0px;
+    }
+}
+
+@media (max-width: 579px) {
     .container-enum-servicios {
         flex-direction: column;
         padding: 28px 50px;
-        gap: 30px;
+        gap: 40px;
     }
 }
