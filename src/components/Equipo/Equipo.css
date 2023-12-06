@@ -85,9 +85,12 @@
 @media (max-width: 580px) {
     .container-integrantes-equipo {
         flex-direction: column;
-    } 
+    }
+    .container-texto-equipo {
+        padding-bottom: 16px;
+    }
 }
-  
+
 .imagen-deco-equipo {
     width: 100%;
 }

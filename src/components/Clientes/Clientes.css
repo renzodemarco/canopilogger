@@ -1,7 +1,7 @@
 .container-clientes{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 2.25rem;
     align-self: stretch;
@@ -30,7 +30,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 580px) {
   .container-clientes h2 {
     font-size: 32px;
   }
@@ -43,14 +43,28 @@
     justify-content: space-around;
 }
 
-@media (max-width: 414px) {
+.clientes img {
+  transition: 0.3s;
+}
+
+.clientes img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
   .clientes {
     width: 100%;
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 580px) {
   .clientes img {
     width: 120px;
+  }
+}
+
+@media (max-width: 414px) {
+  .clientes img {
+    width: 100px;
   }
 }
