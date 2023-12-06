@@ -1,5 +1,5 @@
 import React from 'react';
-import pcImg from '../../assets/img-deco-principal.png'
+import img from '../../assets/image-12.png'
 import './Presentacion.css'
 
 function Presentacion() {
@@ -17,7 +17,7 @@ function Presentacion() {
         </div>
       </div>
       <div className="container-imagen-presentacion">
-        <img src={pcImg} alt="Imagen" />
+        <img src={img} alt="Imagen" />
       </div>
     </div>
   );

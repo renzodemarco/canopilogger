@@ -46,7 +46,13 @@
   font-size: .8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: .5rem;
+  line-height: 1rem;
+}
+
+@media (max-width: 580px) {
+  .container-job-item-integrantes {
+    margin: 2px 0 16px;
+  }
 }
 
 @media (max-width: 414px) {

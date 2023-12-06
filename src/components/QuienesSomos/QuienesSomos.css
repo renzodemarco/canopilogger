@@ -1,6 +1,6 @@
 .container-quienessomos{
     width: 100%;
-    padding: 1.5rem 9rem;
+    padding: 1.5rem 6rem;
     margin: .9rem 0 3rem;
     display: flex;
     flex-direction: row;
@@ -36,6 +36,10 @@
 
 .container-img-quienessomos {
     width: 38%;
+}
+
+.container-img-quienessomos img {
+    width: 90%;
 }
 
 @media (max-width: 414px) {

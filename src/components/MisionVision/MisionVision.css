@@ -4,6 +4,7 @@
     align-items: center;
     gap: .5rem;
     margin: 1rem 0 3rem;
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -21,7 +22,7 @@
     margin-top: 10%;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 580px) {
     .imagen-rectangulo {
         width: 160px;
         height: 400px;
@@ -36,7 +37,7 @@
     z-index: 1;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 580px) {
     .imagen-misionvision {
         width: 160px;
     }
@@ -62,13 +63,6 @@
     align-items: flex-start;
     gap: .55rem;
     margin-left: 20%;
-}
-
-@media (max-width: 414px) {
-    .container-texto {
-        gap: 2;
-        margin-left: 10%;
-    }
 }
 
 .container-texto h2 {
@@ -112,5 +106,18 @@
 @media (max-width: 414px) {
     .container-texto p {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 580px) {
+    .container-texto {
+        gap: 2;
+        margin-left: 10%;
+    }
+    .container-texto h2 {
+        font-size: 28px;
+    }
+    .container-texto p {
+        font-size: 16px;
     }
 }

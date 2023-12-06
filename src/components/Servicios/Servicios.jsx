@@ -1,5 +1,5 @@
 import React from 'react'
-import fondoSemillas from '../../assets/fondo-semillas.svg'
+import fondo from '../../assets/duraznos-abajo.png'
 import EnumServicios from '../EnumServicios/EnumServicios'
 import asesoramiento from '../../assets/asesoramiento-color.svg'
 import sensores from '../../assets/sensor-color.svg'
@@ -10,7 +10,7 @@ function Servicios() {
   return (
     <div className="container-servicios" id="seccion-servicios">
       <div className="img-fondo-container">
-        <img src={fondoSemillas}  alt="Imagen semillas"/>
+        <img src={fondo}  alt="Imagen uvas"/>
       </div>
       <div className="container-titulo-servicios">
         <h2>NUESTROS SERVICIOS</h2>

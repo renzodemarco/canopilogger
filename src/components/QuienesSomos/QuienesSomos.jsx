@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import pcImg from '../../assets/pc-inicio-inv.svg'
+import img from '../../assets/image-14.png'
 import './QuienesSomos.css'
 
 function QuienesSomos() {
   return (
     <div className="container-quienessomos" id="sobre-nosotras">
       <div className='container-img-quienessomos'>
-        <img src={pcImg} alt='imagen ilustrtiva'></img>
+        <img src={img} alt='imagen ilustrtiva'></img>
       </div>
       <div className='container-text-quienessomos'>
         <div className="container-titulo-quienessomos">

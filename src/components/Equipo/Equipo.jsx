@@ -1,5 +1,5 @@
 import React from 'react'
-import maiz from '../../assets/maiz-abajo.png'
+import fondo from '../../assets/duraznos-abajo.png'
 import IntEquipo from '../EnumEquipo/EnumEquipo'
 import fotoRegina from '../../assets/FotoRegina.png'
 import fotoEva from '../../assets/fotoEva.png'
@@ -27,7 +27,7 @@ function Equipo() {
             name="Vanesa Hidalgo" 
             job="Agronegocios"/>
         </div>
-        <img className="imagen-deco-equipo"src={maiz} alt="Imagen quienes somos"/>
+        <img className="imagen-deco-equipo"src={fondo} alt="Imagen quienes somos"/>
     </div>
   )
 }
