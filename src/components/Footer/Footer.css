@@ -8,8 +8,7 @@
 
 @media (max-width: 414px) {
   .container-footer {
-    flex-direction: column;
-    justify-content: center;
+    padding: 14px 0;
   }
 }
 
@@ -131,13 +130,6 @@
 .container-footer-right a:hover {
   transform: scale(1.1);
   filter: brightness(120%)
-}
-
-@media (max-width: 414px) {
-  .container-footer-right {
-    width: 100%;
-    justify-content: center;
-  }
 }
 
 @media (max-width: 680px) {

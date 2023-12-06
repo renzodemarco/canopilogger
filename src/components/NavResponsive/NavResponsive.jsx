@@ -20,7 +20,7 @@ function NavResponsive() {
       </Button>
       <Offcanvas show={show} onHide={handleClose} placement={'end'}>
         <Offcanvas.Header className='nav-responsive-header' closeButton>
-          <Offcanvas.Title className='nav-responsive-title'>Menú</Offcanvas.Title>
+          <Offcanvas.Title className='nav-responsive-title'></Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul className="nav-responsive-list">
