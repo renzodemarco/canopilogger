@@ -24,12 +24,16 @@
     .container-canopilogger {
         flex-direction: column-reverse;
     }
+    .container-img-historia img {
+        width: 100%;
+    }
 }
 
 .container-img-historia {
     display: flex;
-    width: 18.2rem;
-    height: 16.6rem;
+    width: 400px;
+    height: 398px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -58,20 +62,60 @@
 }
 
 @media (max-width: 1024px) {
+    .container-historia {
+        padding: 1rem 2rem 0;
+    }
     .container-titulo-canopilogger h2 {
         font-size: 30px;
+    }
+    .container-img-historia {
+        width: 340px;
+        height: 320px;
+    }
+    .container-img-historia img {
+        width: 280px;
+    }
+}
+
+@media (max-width: 860px) {
+    .container-img-historia {
+        width: 260px;
+    }
+    .container-img-historia img {
+        width: 280px;
     }
 }
 
 @media (max-width: 680px) {
+    .container-historia {
+        margin-top: 10px;
+    }
     .container-titulo-canopilogger h2 {
         font-size: 28px;
+    }
+    .container-img-historia img {
+        width: 220px;
+    }
+}
+
+@media (max-width: 580px) {
+    .container-img-historia {
+        height: 300px;
+    }
+    .container-img-historia img {
+        width: 320px;
     }
 }
 
 @media (max-width: 414px) {
     .container-titulo-canopilogger h2 {
         font-size: 32px;
+    }
+    .container-img-historia {
+        height: 260px;
+    }
+    .container-img-historia img {
+        width: 290px;
     }
 }
 

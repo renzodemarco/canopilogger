@@ -5,7 +5,7 @@ import './QuienesSomos.css'
 
 function QuienesSomos() {
   return (
-    <div className="container-quienessomos" id="sobre-nosotras">
+    <div className="container-quienessomos">
       <div className='container-img-quienessomos'>
         <img src={img} alt='imagen ilustrtiva'></img>
       </div>
