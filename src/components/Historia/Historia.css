@@ -9,7 +9,7 @@
 
 @media (max-width: 834px) {
     .container-historia {
-        margin-top: 10%;
+        margin-top: 6%;
     }
 }
 
@@ -63,6 +63,12 @@
     }
 }
 
+@media (max-width: 680px) {
+    .container-titulo-canopilogger h2 {
+        font-size: 28px;
+    }
+}
+
 @media (max-width: 414px) {
     .container-titulo-canopilogger h2 {
         font-size: 32px;
@@ -90,6 +96,13 @@
         width: 100%;
     }
 }
+
+@media (max-width: 680px) {
+    .container-subtitulo-canopilogger p {
+        font-size: 18px
+    }
+}
+
 
 @media (max-width: 414px) {
     .container-subtitulo-canopilogger p {
@@ -142,6 +155,13 @@
     padding-bottom: 10%;
 }
 
+.container-ntra-historia p span {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
 @media (max-width: 1024px) {
     .container-ntra-historia p {
         font-size: 24px;
@@ -155,18 +175,24 @@
     }
 }
 
+@media (max-width: 680px) {
+    .container-ntra-historia h2 {
+        font-size: 28px;
+    }
+    .container-ntra-historia p {
+        font-size: 18px;
+    }
+    .container-ntra-historia p span {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 414px) {
     .container-ntra-historia p {
         font-size: 15px;
     }
 }
 
-.container-ntra-historia p span {
-    color: #000;
-    font-family: Roboto;
-    font-size: 1.4rem;
-    font-weight: 700;
-}
 
 @media (max-width: 414px) {
     .container-ntra-historia p span{

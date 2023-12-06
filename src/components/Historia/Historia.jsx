@@ -1,5 +1,5 @@
 import React from 'react'
-import historia from '../../assets/historia.png'
+import img from '../../assets/historia.png'
 import './Historia.css'
 
 function Historia() {
@@ -8,7 +8,7 @@ function Historia() {
     <div className='container-historia'>
         <div className="container-canopilogger">
             <div className='container-img-historia'>
-                <img src={historia} alt="Imagen quienes somos"/>
+                <img src={img} alt="Imagen quienes somos"/>
             </div>
             <div className='container-text-canopilogger'>
                 <div className="container-titulo-canopilogger">

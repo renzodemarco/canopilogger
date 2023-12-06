@@ -16,7 +16,7 @@ function NavResponsive() {
   return (
     <>
       <Button onClick={handleShow} className="hamburger-icon">
-        <img src={icon}/>
+        <img src={icon} alt="icono para desplegar menú"/>
       </Button>
       <Offcanvas show={show} onHide={handleClose} placement={'end'} style={{ width: '260px' }}>
         <Offcanvas.Header className='nav-responsive-header' closeButton>
