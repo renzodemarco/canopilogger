@@ -10,8 +10,19 @@
   color: #3c4543;
 }
 
+body {
+  min-height: 100vh;
+}
+
 .App {
-  padding-top: 4rem;
+  padding-top: 80px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  min-height: 100%;
 }
 
 a {
@@ -21,6 +32,23 @@ a {
 
 .img-footer {
   width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  flex: 1
+}
+
+footer {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+  .App {
+    padding-top: 70px;
+  }
 }
 
 @media screen and (min-width: 420px) {
@@ -50,5 +78,17 @@ a {
 @media screen and (min-width: 1204px) {
   * {
     font-size: 20px;
+  }
+}
+
+.footer-responsive {
+  width: 100%;
+  display: none;
+  flex-shrink: 0;
+}
+
+@media (max-width: 580px) {
+  .footer-responsive {
+      display: flex;
   }
 }

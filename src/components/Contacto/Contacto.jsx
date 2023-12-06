@@ -5,7 +5,6 @@ import iconLn from '../../assets/icon-ln.svg'
 import rectangulo from '../../assets/rectContacto.png'
 import deco from '../../assets/decoContacto.png'
 import logo from '../../assets/logoRedondo.png'
-import Footer from '../Footer/Footer'
 import "./Contacto.css";
 
 function Contacto() {
@@ -32,11 +31,7 @@ function Contacto() {
                     </a>
                 </div>
             </div>
-            <div className="footer-responsive">
-                <Footer/>
-            </div>
         </div>
-
     );
 }
 

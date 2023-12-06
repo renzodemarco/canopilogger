@@ -5,7 +5,9 @@ import Footer from '../components/Footer/Footer'
 function ContactoScreen() {
     return (
         <>
-            <Servicios/>
+            <main>
+                <Servicios/>
+            </main>
             <Footer/>
         </>
     )

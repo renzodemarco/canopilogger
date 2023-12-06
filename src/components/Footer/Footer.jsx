@@ -31,7 +31,7 @@ function Footer() {
     }, [windowWidth]);
 
     return (
-        <div className="container-footer">
+        <footer className="container-footer">
             <div className="container-footer-left">
                 <img
                     className="img-deco-rectangulo"
@@ -66,7 +66,7 @@ function Footer() {
                     <img src={iconLn} alt="enlace linkedin" />
                 </a>
             </div>
-        </div>
+        </footer>
     );
 }
 
