@@ -6,13 +6,12 @@ import Inicio from './screens/Inicio'
 import QuienesSomosScreen from './screens/QuienesSomosScreen'
 import ContactoScreen from './screens/ContactoScreen'
 import ServiciosScreen from './screens/ServiciosScreen'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
   return (
-    <>
-    <BrowserRouter>
+    <HashRouter>
     <Navbar/>
       <div className="App">
         <Routes>
@@ -22,8 +21,7 @@ function App() {
             <Route path="/servicios" element={<ServiciosScreen/>}/>
         </Routes>
       </div>
-    </BrowserRouter>
-  </>
+    </HashRouter>
   )
 }
 

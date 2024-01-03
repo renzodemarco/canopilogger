@@ -1,4 +1,0 @@
-TITULO: bold 40px
-SUBTITULO: bold 30px
-BODY: regular 15px
-BODY: bold 15px
